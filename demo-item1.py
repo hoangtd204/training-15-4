@@ -1,6 +1,9 @@
+#variable
 number = int(input("Nhập một số nguyên dương: "))
+myScore= {'Physics':8,'Math':8}
 
-def check_OddNumber(number):
+#function
+def check_OddNumberByWhile(number):
     sum = 0
     while number > 0:
         lastNumber = number % 10
@@ -9,5 +12,11 @@ def check_OddNumber(number):
         number = number // 10
     return sum
 
-# Gọi hàm và in kết quả
-print("Tổng các chữ số lẻ là:", check_OddNumber(number))
+def checkScore(myScore):
+    for score in myScore:
+      print(score,myScore[score])
+
+#call function
+print("Tổng các chữ số lẻ là:", check_OddNumberByWhile(number))
+
+checkScore(myScore)
