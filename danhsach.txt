@@ -1,7 +1,0 @@
-Không ai sinh ra đã giỏi lập trình.
-Họ chỉ bắt đầu bằng việc viết những dòng code đơn giản.
-Rồi sửa lỗi.
-Rồi học thêm một chút mỗi ngày.
-
-Giống như bạn đang làm lúc này.
-Cứ tiếp tục nhé, lập trình viên tương lai!
