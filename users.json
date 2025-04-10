@@ -1,23 +1,23 @@
 [
     {
-        "name": "\u0111\u1ec9n",
-        "age": 77,
-        "skills": [
-            "gsod"
+        "name": "HOANH",
+        "age": 24,
+        "skill": [
+            "HK"
         ]
     },
     {
-        "name": "hoang",
-        "age": 56,
-        "skills": [
-            "hat"
+        "name": "HSOD",
+        "age": 45,
+        "skill": [
+            "HF"
         ]
     },
     {
-        "name": "huy ",
-        "age": 67,
-        "skills": [
-            "kat"
+        "name": "DKK",
+        "age": 45,
+        "skill": [
+            "HGJ"
         ]
     }
 ]
