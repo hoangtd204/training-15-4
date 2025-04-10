@@ -35,9 +35,9 @@ def main():
         user = get_user_input()
         users.append(user)
 
-        cont = input('Bạn có muốn nhập tiếp không (y/n)? ')
-        if cont.lower() != 'y':
-            break
+        conti = input('Bạn có muốn nhập tiếp không (y/n)? ')
+        if conti.lower() != 'y':
+         break
 
     save_user_to_file(filename, users)
 
