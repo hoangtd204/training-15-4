@@ -28,5 +28,12 @@
             "sns",
             "snd"
         ]
+    },
+    {
+        "name": "hoang",
+        "age": 56,
+        "skill": [
+            "vgfg"
+        ]
     }
 ]
