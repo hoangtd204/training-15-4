@@ -2,11 +2,11 @@ import json
 import os
 
 
-# def read_user_from_file(filename):
-#     if os.path.exists(filename) and os.path.getsize(filename) > 0:
-#         with open(filename, 'r') as f:
-#             return json.load(f)
-#     return []
+def read_user_from_file(filename):
+    if os.path.exists(filename) and os.path.getsize(filename) > 0:
+        with open(filename, 'r') as f:
+            return json.load(f)
+    return []
 
 
 def get_user_input():
@@ -23,14 +23,14 @@ def get_user_input():
 
 
 def save_user_to_file(filename, users):
-    with open(filename, 'a') as f:
+    with open(filename, 'w') as f:
         json.dump(users, f, indent=4)
 
 
 def main():
     filename = 'users.json'
-    users = []
-    # users = read_user_from_file(filename)
+    users = read_user_from_file(filename)
+
     while True:
         user = get_user_input()
         users.append(user)
